@@ -1,0 +1,26 @@
+{
+  "name": "showbox",
+  "description": "mvp showbox api integration",
+  "main": "index.js",
+  "authors": [
+    "greg hasenauer"
+  ],
+  "license": "UNLICENSED",
+  "keywords": [
+    "api",
+    "showbox"
+  ],
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^4.0.0",
+    "animate.css": "^3.5.2",
+    "jquery": "^3.3.1"
+  }
+}

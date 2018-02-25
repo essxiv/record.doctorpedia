@@ -1,0 +1,53 @@
+#Header {
+    background-color: white;
+    // border: 1px solid black;
+    min-height: 90px;
+    max-height: 90px;
+    min-width: 100%;
+    max-width: 100%;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.doctorpedia-header-logo {
+    display: block;
+    background: url('../img/logo_doctorpedia.png');
+    background-size: cover;
+    background-position: center;
+    height: 65px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.doctorpedia-header-logo-mobile {
+    display: none;
+    background: url('../img/favicon.png');
+    background-size: cover;
+    background-position: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    height: 62px;
+    width: 62px;
+}
+
+@media screen and (max-width: 1220px) {
+
+    .doctorpedia-header-logo-mobile {
+        display: block;
+    }
+
+    .doctorpedia-header-logo {
+        display: none;
+    }
+
+}
+
+
+.col-lg-4 div {
+    position: relative;
+    // top: 50%;
+}
